@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<RunConfig schemaVersion="1.0"
+	xmlns="http://www.integrace.co.uk/testview/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<UDF projectName="com.integrace.testview.examples"
+			className="com.sap.xi.tf._MM_Input_Output_Test_"
+			methodName="SafeConcat(String[], String[], ResultList, Container)"
+			PIVersion="7.1">
+		</UDF>
+	</Header>
+	<Configuration>
+		<Input>
+			<Data>
+				<Method>
+					<Argument name="a">
+						<Item value="a1"></Item>
+						<Item value="a2"></Item>
+						<Item value="a3"></Item>
+						<Item value="a4"></Item>
+						<Item value="a5"></Item>
+					</Argument>
+					<Argument name="b">
+						<Item value="b1"></Item>
+						<Item value="b2"></Item>
+					</Argument>
+				</Method>
+				<Init></Init>
+			</Data>
+		</Input>
+<Output saveOutputData="true">
+	<Data>
+		<Result>
+			<Argument name="result">
+				<Item value="a1b1"/>
+				<Item value="a2b2"/>
+				<Item value="a3"/>
+				<Item value="a4"/>
+				<Item value="a5"/>
+			</Argument>
+		</Result>
+	</Data>
+
+</Output>
+</Configuration>
+</RunConfig>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<RunConfig schemaVersion="1.0"
+	xmlns="http://www.integrace.co.uk/testview/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Header>
+		<Mapping projectName="com.integrace.testview.examples"
+			className="com.integrace.testview.examples.jm.SimpleMapping"
+			PIVersion="7.1">
+		</Mapping>
+	</Header>
+	<Configuration>
+		<Input>
+			<Data>
+<File selected="Content">
+	<Content>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;Test xmlns=&quot;http://www.integrace.co.uk/testview/&quot;&gt;
+	&lt;Header&gt;
+		&lt;InputParam&gt;0&lt;/InputParam&gt;
+	&lt;/Header&gt;
+	&lt;Data&gt;
+		&lt;Item&gt;1&lt;/Item&gt;
+		&lt;Item&gt;2&lt;/Item&gt;
+	&lt;/Data&gt;
+&lt;/RunConfig&gt;</Content>
+</File>
+			</Data>
+		</Input>
+<Output saveOutputData="true">
+<Data><File selected="Content">
+<Content>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;Test xmlns=&quot;http://www.integrace.co.uk/testview/&quot;&gt;
+	&lt;Header&gt;
+		&lt;InputParam&gt;0&lt;/InputParam&gt;
+	&lt;/Header&gt;
+	&lt;Data&gt;
+		&lt;Item&gt;1&lt;/Item&gt;
+		&lt;Item&gt;2&lt;/Item&gt;
+	&lt;/Data&gt;
+&lt;/RunConfig&gt;</Content></File>
+</Data>
+</Output>
+</Configuration>
+</RunConfig>
