@@ -1,0 +1,1 @@
+Collections of examples of Integrace Testview pligin for SAP PI developers
